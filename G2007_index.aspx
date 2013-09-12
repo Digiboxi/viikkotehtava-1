@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
     <div>
     <asp:hyperlink runat="server" ID="HyperLink1" NavigateUrl="~/tehtava1.aspx">Linkki</asp:hyperlink>
+    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/G2007_LocalDBDemo.aspx">HyperLink</asp:HyperLink>
     </div>
     </form>
 </body>
