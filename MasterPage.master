@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>IIO13200 ASP.NET-Ohjelmointi</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="demoSite.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 960px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img alt="asd" class="auto-style1" src="images/kuva.jpg" /><br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>&copy; Ville Hietakangas</div>
+    </form>
+</body>
+</html>
