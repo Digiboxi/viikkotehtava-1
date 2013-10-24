@@ -19,7 +19,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <img alt="asd" class="auto-style1" src="images/kuva.jpg" /><br />
+        <img alt="asd" class="auto-style1" src="~/images/kuva.jpg" /><br />
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 
         </asp:ContentPlaceHolder>
